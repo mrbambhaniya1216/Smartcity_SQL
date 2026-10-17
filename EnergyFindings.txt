@@ -1,0 +1,57 @@
+WATTWATCH - KEY ENERGY FINDINGS AND RECOMMENDATIONS
+Dataset: SmartCityEnergy.csv | 120 smart meters, 5 zones | 1 Jan 2023 - 31 Dec 2024
+City totals: 14.33 million kWh consumed | 264,571 outage minutes | est. cost 1.94 million (tariff currency)
+======================================================================================
+
+1. EAST ZONE IS THE ENERGY HOTSPOT (INDUSTRIAL-DRIVEN)
+   East used 6.11M kWh, 42.6% of all city consumption, with only 22 of 120 meters
+   (avg 380 kWh per meter-day vs 133 in North). It also carries the highest cost
+   (732K, about 38% of the city bill). Four of the five largest industrial meters
+   are in East (MTR-0062, 0060, 0064, 0066).
+   ACTION: run energy audits on these four meters, offer time-of-use tariffs and
+   demand-response incentives to East's industrial users.
+
+2. INDUSTRIAL CONSUMERS USE THE MOST POWER
+   Industrial = 68.2% of kWh (9.77M), Commercial = 25.4% (3.63M), Residential = only
+   6.5% (0.93M). A handful of industrial meters outweigh entire residential zones.
+   ACTION: target efficiency programmes at industrial and commercial accounts first;
+   they give the biggest savings per customer reached.
+
+3. SOUTH ZONE HAS THE LEAST RELIABLE POWER SUPPLY
+   South has 24 of 120 meters (20%) but 45.4% of all outage minutes (120,176 min).
+   Outages hit 12% of its meter-days and last 6.85 min per meter-day, 2.3x the city
+   average. It has the lowest consumption (34 kWh per meter-day), so the problem is
+   network reliability, not demand.
+   ACTION: inspect and reinforce South feeders/transformers; prioritise this zone for
+   grid-maintenance budget.
+
+4. A SMALL GROUP OF METERS IS PERSISTENTLY FAULTY
+   21 meters reported 'Faulty' status at some point, and 11 were faulty on all 731 days
+   (6 in South: MTR-0038, 0043, 0042, 0039, 0028, 0045). Faulty meters average 9.4
+   outage minutes per day vs 2.3 for active meters (about 4x) and under-record usage,
+   which weakens billing accuracy.
+   ACTION: replace or recalibrate the 11 persistently faulty meters now; set an alert
+   when a meter stays 'Faulty' for more than 30 days.
+
+5. STRONG SUMMER SEASONALITY
+   Monthly consumption peaks in May-July (about 730-755K kWh; highest was Jul 2024 at
+   754.7K) and bottoms out in Dec-Jan (about 450-480K kWh), roughly 60% higher in
+   summer. The pattern repeats in both years.
+   ACTION: schedule maintenance for Nov-Feb; pre-arrange extra capacity and run
+   cooling-efficiency campaigns before April.
+
+6. WEEKDAYS DRIVE HIGHER PEAKS, EXCEPT FOR HOMES
+   Average peak is 11.7 kWh on weekdays vs 8.9 kWh on weekends (about 24% lower).
+   Commercial peaks fall 38% at weekends (11.4 to 7.1) and industrial 22%, while
+   residential peaks rise about 12% at weekends (2.07 to 2.32).
+   ACTION: use weekday peak pricing for commercial/industrial users and weekend
+   residential awareness campaigns to flatten peaks.
+
+7. EFFICIENCY PROBLEMS DIFFER BY ZONE, SO FIXES SHOULD TOO
+   Inefficiency score (usage index + outage index, city avg = 1.0): East 1.56 (usage
+   2.3x city avg, outages normal) and South 1.24 (usage low, outages 2.3x), followed by
+   West 0.84, Central 0.73, North 0.71.
+   ACTION: East needs demand management; South needs reliability investment. Central
+   and North are the benchmark zones for good performance.
+
+Note: the dataset is synthetic (AI-generated), so these patterns reflect the simulated data.
